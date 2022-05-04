@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 version: 2.1
 orbs:
   node: circleci/node@4.1.0
@@ -10,3 +11,6 @@ jobs:
     steps:
          checkout
          run: echo "A first hello"
+=======
+
+>>>>>>> 71a5a7f21292e9392b6b1373f53ed547623fe7d7
