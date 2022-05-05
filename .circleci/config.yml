@@ -34,6 +34,10 @@ jobs:
           name: Front-End Install Karma Cli
           command: |
             npm run frontend:karmaCli
+      - run:
+          name: install puppeteer
+          command: |
+            npm i puppeteer --dev -save
 
       - run:
           name: Front-End Test
