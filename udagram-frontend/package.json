@@ -11,7 +11,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "deploy": " chmod +x bin/deploy.sh && bin/deploy.sh",
-    "karmaCli": "chmod +x bin/KarmaCli.sh && bin/KarmaCli.sh"
+    "karmaCli": "chmod +x bin/karmaCli.sh && bin/karmaCli.sh"
   },
   "private": true,
   "dependencies": {
