@@ -1,1 +1,2 @@
-aws s3 cp --recursive --acl public-read ./build s3://mayar-udagram/
+aws s3 cp --recursive  ./www s3://mayar-udagram/ --profile default
+
