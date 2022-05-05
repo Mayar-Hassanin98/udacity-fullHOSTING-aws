@@ -32,7 +32,7 @@ jobs:
           name: Deploy Frontend App
           command: |
             npm run frontend:deploy
-      -aws-elastic-beanstalk/setup
+      - aws-elastic-beanstalk/setup
       -run:
          name: Deploy Backend App
          command: |
