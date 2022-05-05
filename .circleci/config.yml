@@ -9,6 +9,8 @@ jobs:
     steps:
       - node/install
       - checkout
+      - aws-cli/setup
+
       - run:
           name: Front-End Install
           command: |
@@ -25,3 +27,7 @@ jobs:
           name: Front-End Build
           command: |
             npm run frontend:build
+      - run:
+          name: Deploy App
+          command: |
+            npm run frontend:deploy
