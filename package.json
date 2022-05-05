@@ -5,7 +5,7 @@
     "backend:build": "cd    udagram-api && npm run build",
     "frontend:build": "cd udagram-frontend && export SET NODE_OPTIONS=--openssl-legacy-provider && npm run build",
     "frontend:deploy": "cd udagram-frontend && npm run deploy",
-    "backend:deploy": "cd udagram-api && npm run deploy"
+    "backtend:deploy": "cd udagram-api && npm run deploy"
   },
   "devDependencies": {}
 }
