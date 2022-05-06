@@ -29,3 +29,20 @@ Setup the following variables in the .env file or in the cloud environments:
 - AWS_PROFILE         = <Profile>
 - AWS_BUCKET          = <Bucket_Name>
 ```
+
+#### How come the S3 Bucket Work ?
+
+1. Receives Requests from the user And then send it to **Elastic Beanstalk**
+2. Sends Back Responses from the **Elastic Beanstalk** to the User
+3. Saves the Uploaded pictures .
+
+#### How come the Elastic Beanstalk Work ?
+
+1. Receives a Requests from the **S3 Buckets**
+2. Sends Queries to the **RDS Postgres DB**
+3. Sends Responses to the **Elastic Beanstalk**
+
+#### How come the RDS Postgres DB Work ?
+
+1. Receives Queries from **Elastic Beanstalk**
+2. Sends Data to **Elastic Beanstalk**
