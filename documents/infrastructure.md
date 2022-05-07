@@ -30,6 +30,10 @@ Setup the following variables in the .env file or in the cloud environments:
 - AWS_BUCKET          = <Bucket_Name>
 ```
 
+### CircleCi environment variables setup
+
+![](./enviromentCircleCi.JPG)
+
 #### How come the S3 Bucket Work ?
 
 1. Receives Requests from the user And then send it to **Elastic Beanstalk**
